@@ -1,0 +1,21 @@
+{
+  "name": "systemjs-hmr",
+  "version": "2.0.9",
+  "description": "Hot Module Replacement Extention for SystemJS",
+  "main": "dist/systemjs-hmr.js",
+  "registry": "npm",
+  "format": "global",
+  "jspmPackage": true,
+  "jspm": {
+    "overrides": {
+      "ajv": {
+        "registry": "npm"
+      }
+    },
+    "map": {
+      "./dist/systemjs-hmr.js": {
+        "production": "@empty"
+      }
+    }
+  }
+}
